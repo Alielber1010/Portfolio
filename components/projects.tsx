@@ -15,7 +15,7 @@ export default function Projects() {
       image: "/images/moveilist.png",
       technologies: ["JavaScript", "API Integration", "HTML", "CSS"],
       github: "https://github.com/Alielber1010/movie-choice",
-      live: "#",
+      live: "https://movie-choice-theta.vercel.app/",
     },
     {
       title: "Pomodoro Focus",
@@ -24,9 +24,17 @@ export default function Projects() {
       image: "/images/pomodoro.png",
       technologies: ["TypeScript", "Productivity", "Timer"],
       github: "https://github.com/Alielber1010/PomodoroFocus",
+      live: "https://pomodoro-focus-black.vercel.app/",
+    },
+    {
+      title: "Multilingual Chat",
+      description:
+        "A real-time chat application supporting multiple languages, powered by Kafka, Google Translate API, MongoDB, and Socket.IO. Features include message translation, live updates, and a microservices architecture.",
+      image: "/multilingual.png",
+      technologies: ["Node.js", "Kafka", "MongoDB", "Socket.IO", "Google Translate API", "Microservices"],
+      github: "https://github.com/Alielber1010/multilingualchat",
       live: "#",
     },
-
   ]
 
   return (
